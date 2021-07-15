@@ -1,0 +1,10 @@
+ 
+# predict
+
+python predict.py --model checkpoints/CP_epoch50.pth --input /media/vv/50B0275AB02745B6/lichuan/dataset/RailGuard170/jpgs/rs00153.jpg --out demo/rs00153_output.jpg
+
+
+
+# train 
+
+python train.py -e 150 -b 1 -l 0.0003 -s 0.5 -v 10
